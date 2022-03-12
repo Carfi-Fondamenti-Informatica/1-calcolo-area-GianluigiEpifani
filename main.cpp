@@ -9,6 +9,10 @@ int main(){
     quadrato = a*a;
     rettangolo = a*b;
     trapezio =  (a+b)*c/2;
-    std::cout << " L'area e' " << triangolo << " " << quadrato << " " << rettangolo << " " << trapezio << std::endl;
+     std::cout << "L'area e'" << std::endl;
+    std::cout << "  " << triangolo << std::endl;
+    std::cout << "  " << quadrato << std::endl;
+    std::cout << "  " << rettangolo << std::endl;
+    std::cout << "  " << trapezio << std::endl;
     return 0;
 }
